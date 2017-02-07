@@ -24,9 +24,9 @@ We will use cwac-camera for take a picture. And get library from  [jitpack.io](h
 ```javascript
 
 repositories {
-    maven { url "https://repo.commonsware.com.s3.amazonaws.com" }
-    maven { url "https://jitpack.io" }
-
+    maven { url 'https://repo.commonsware.com.s3.amazonaws.com' }
+    maven { url 'https://jitpack.io' }
+    maven { url "https://s3.amazonaws.com/repo.commonsware.com" }
 }
 
 dependencies {
